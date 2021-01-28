@@ -4,6 +4,7 @@ def square_array(array)
   new_arr = []
   array.each do |element|
     new_arr << Math.sqrt(element)
+  end
 end
 
 def summon_captain_planet(planeteer_calls)
