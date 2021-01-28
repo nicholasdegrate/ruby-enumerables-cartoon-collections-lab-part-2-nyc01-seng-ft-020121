@@ -3,7 +3,8 @@ def square_array(array)
   # Return a new array of the results
   new_arr = []
   array.each do |element|
-    new_element
+    new_element = Math.sqrt(element)
+    new_arr.push(new_element)
 end
 
 def summon_captain_planet(planeteer_calls)
